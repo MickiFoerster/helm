@@ -1,0 +1,17 @@
+costCode: asdf
+projectCode: abcdefghijkl
+infra:
+  zone: a,b,c
+  region: us-east
+tags:
+  machine: frontdrive
+  rack: 4c
+  drive: ssd
+  vcard: 8g
+LangUsed:
+  - go
+  - rust
+  - python
+  - c
+  - c++
+
