@@ -1,0 +1,5 @@
+subchart-A: # This name must be fit to the subchart nam1e
+  dbhostname: overwrittenValue
+
+global:
+  globalKeyFromParentChart: globalValueFromParentChart

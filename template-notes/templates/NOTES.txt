@@ -1,0 +1,5 @@
+Your release is named {{ .Release.Name }}.
+
+$ helm status {{ .Release.Name }}
+$ helm get all {{ .Release.Name }}
+$ helm uninstall {{ .Release.Name }}

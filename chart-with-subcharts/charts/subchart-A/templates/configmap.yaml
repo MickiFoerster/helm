@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name}}-inner-configmap
+data:
+  dbhost: {{ .Values.dbhostname }}
+  valueFromParent: {{ .Values.global.globalKeyFromParentChart }}

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name}}-configmap
+{{- template "mytemplatename.systemlabels" $ }}
+data:
+{{- include "mytemplatename.config" $ | indent 2 }}
